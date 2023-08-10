@@ -45,4 +45,12 @@ const AddUser = (props) => {
           type="number"
           id="age"
           value={enteredAge}
-      
+          onChange={enteredAgeHandler}
+        />
+        <Button>Add User</Button>
+      </form>
+    </Card>
+  );
+};
+
+export default AddUser;
